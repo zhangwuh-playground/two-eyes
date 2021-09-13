@@ -1,0 +1,6 @@
+[submodule "grpc-protos"]
+	path = grpc-protos
+	url = git@rr-factory.gloryholiday.com:yuetu/grpc-protos.git
+[submodule "thrift"]
+	path = thrift
+	url = git@github.com:ziegler-EdmodoWorld/thrift.git

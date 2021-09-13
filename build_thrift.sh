@@ -1,0 +1,1 @@
+thrift -r --gen rb  thrift/user_service.thrift

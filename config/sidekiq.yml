@@ -1,0 +1,6 @@
+---
+:concurrency: 2
+:queues:
+  - [usermessages]
+  - [default]
+:logfile: log/sidekiq.log
