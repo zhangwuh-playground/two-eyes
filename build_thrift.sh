@@ -1,1 +1,1 @@
-thrift -r --gen rb  thrift/user_service.thrift
+thrift -r --gen rb  showcase-idls/user_service.thrift
