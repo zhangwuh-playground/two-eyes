@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   root 'application#ping'
   get 'ping', to: 'application#ping', as: :ping
   get 'user/:id', to: 'users#get', as: :get_user
-  post 'user/message', to: 'users#send_message', as: :send_user_message
+  post 'user/:id/message', to: 'users#send_message', as: :send_user_message
 end
